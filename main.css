@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0%;
+}
+#body-bg {
+  display: block;
+  width: 100%;
+  height: 50vh;
+  position: absolute;
+  background-color: white;
+  background-image: none;
+}
+.nav {
+  font-size: 25px;
+  margin: 10px 0 5px 5px;
+  cursor: pointer;
+  text-shadow: 1px 1px 3px white;
+}
+#main-block-color {
+  display: flex;
+  visibility: hidden;
+  flex-flow: row wrap;
+  width: 20%;
+  height: 30.3vh;
+  position: absolute;
+  top: 20vh;
+  left: 40%;
+  background-color: rgb(109, 119, 116);
+  border: 1px solid black;
+}
+.color1,
+.color2,
+.color3,
+.color4,
+.color5,
+.color6,
+.color7,
+.color8,
+.color9 {
+  display: block;
+  width: 33.333%;
+  height: 33.4%;
+  border: 1px solid black;
+}
+.color1 {
+  background-color: #059a98;
+  background-size: contain;
+}
+.color2 {
+  background-color: #920c00;
+}
+.color3 {
+  background-color: #24b771;
+}
+.color4 {
+  background-color: #36ce00;
+}
+.color5 {
+  background-color: #81898b;
+}
+.color6 {
+  background-color: #ff1700;
+}
+.color7 {
+  background-color: #000fff;
+}
+.color8 {
+  background-color: #901589;
+}
+.color9 {
+  background-color: #877f00;
+}
+
+#main-block-bg {
+  display: flex;
+  visibility: hidden;
+  flex-flow: row wrap;
+  width: 20%;
+  height: 30.3vh;
+  position: absolute;
+  top: 20vh;
+  left: 40%;
+  background-color: rgb(109, 119, 116);
+  border: 1px solid black;
+}
+
+.bg1,
+.bg2,
+.bg3,
+.bg4,
+.bg5,
+.bg6,
+.bg7,
+.bg8,
+.bg9 {
+  display: block;
+  width: 33.333%;
+  height: 33.4%;
+  border: 1px solid black;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bg1 {
+  background-image: url(images/compressed/img1.jpg);
+}
+.bg2 {
+  background-image: url(images/compressed/img2.jpg);
+}
+.bg3 {
+  background-image: url(images/compressed/img3.jpg);
+}
+.bg4 {
+  background-image: url(images/compressed/img4.jpg);
+}
+.bg5 {
+  background-image: url(images/compressed/img5.jpg);
+}
+.bg6 {
+  background-image: url(images/compressed/img6.jpg);
+}
+.bg7 {
+  background-image: url(images/compressed/img7.jpg);
+}
+.bg8 {
+  background-image: url(images/compressed/img8.jpg);
+}
+.bg9 {
+  background-image: url(images/compressed/img9.jpg);
+}
